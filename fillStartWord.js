@@ -7,7 +7,7 @@ function fillStartWord(startWord, word) {
         return underfined
     }
     //3
-    if(word.includes(startWord)){
+    else if(word.includes(startWord)==true){
         return word
     }
   }
